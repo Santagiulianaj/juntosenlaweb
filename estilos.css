@@ -1,0 +1,98 @@
+*,*:after, *:before{
+    margin:0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5{
+	font-family: 'Noto Sans', sans-serif;
+}
+
+#bloque-logo {
+    display: inline-flex;
+}
+#texto-logo {
+    color: #f96c85;
+    font-family: 'Sacramento', cursive;
+    padding-top: 14px;
+    margin-bottom: -4px;
+}
+@media screen and (max-width: 550px) {
+    #bloque-logo { 
+        margin-left: -50px !important;
+    }
+}
+@media screen and (max-width: 380px) {
+    #foto-logo { 
+        width: 50px;
+        height: 50px;
+    }
+    #texto-logo { 
+        margin-top: -2px !important;
+        margin-left: 5px !important;
+    }
+}
+@media screen and (max-width: 350px) {
+    #foto-logo { 
+        width: 40px;
+        height: 40px;
+        margin-right: -1px !important;
+    }
+    #texto-logo { 
+        margin-top: -8px !important;
+        margin-left: 10px !important;
+    }
+}
+
+#cover-page {
+    background: url(portadas/opcion\ 6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 3% !important;
+    padding-bottom: 13% !important;
+}
+@media screen and (max-width: 1350px) {
+    #cover-page {
+        background: url(portadas/opcion\ 6\ intermedia.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+@media screen and (max-width: 550px) {
+    #cover-page {
+        background: url(portadas/opcion\ 6\ chica.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #texto-portada {
+        font-size: 140%;
+        padding-top: 50px !important;
+        padding-bottom: 50px !important;
+    }
+}
+@media screen and (max-width: 405px) {
+    #texto-portada {
+        font-size: 120%;
+        padding-top: -100px !important;
+    }
+}
+@media screen and (max-width: 357px) {
+    #texto-portada {
+        font-size: 100%;
+
+    }
+}
+
+#texto-portada {
+    position: relative;
+    font-family: 'Noto Sans', sans-serif;
+    color: white;
+    padding-top: 120px;
+
+}
+.text-with-bg {
+    background-color: #e97d8fd3;
+}
+
