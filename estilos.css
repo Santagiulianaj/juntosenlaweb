@@ -10,41 +10,68 @@ h1,h2,h3,h4,h5{
 	font-family: 'Noto Sans', sans-serif;
 }
 
-#bloque-logo {
+/* NAVBAR */
+#container-logo {
     display: inline-flex;
 }
-#texto-logo {
+#text-logo {
     color: #f96c85;
     font-family: 'Sacramento', cursive;
     padding-top: 14px;
     margin-bottom: -4px;
 }
+@media screen and (max-width: 900px) {
+
+    #text-logo { 
+        font-size: 190% !important;
+    }
+}
 @media screen and (max-width: 550px) {
-    #bloque-logo { 
+    #container-logo { 
         margin-left: -50px !important;
+    }
+    #text-logo { 
+        font-size: 190% !important;
+    }
+}
+@media screen and (max-width: 450px) {
+    #text-logo { 
+        font-size: 170% !important;
+    }
+}
+@media screen and (max-width: 420px) {
+    #text-logo { 
+        font-size: 157% !important;
     }
 }
 @media screen and (max-width: 380px) {
-    #foto-logo { 
+    #photo-logo { 
         width: 50px;
         height: 50px;
     }
-    #texto-logo { 
+    #text-logo { 
         margin-top: -2px !important;
         margin-left: 5px !important;
+        font-size: 140% !important;
     }
 }
 @media screen and (max-width: 350px) {
-    #foto-logo { 
+    #photo-logo { 
         width: 40px;
         height: 40px;
         margin-right: -1px !important;
     }
-    #texto-logo { 
+    #text-logo { 
         margin-top: -8px !important;
         margin-left: 10px !important;
     }
 }
+#navbar-items { 
+  margin-left: auto;
+}
+
+
+/* COVER-PAGE */
 
 #cover-page {
     background: url(portadas/opcion\ 6.jpg);
@@ -53,39 +80,7 @@ h1,h2,h3,h4,h5{
     padding-top: 3% !important;
     padding-bottom: 13% !important;
 }
-@media screen and (max-width: 1350px) {
-    #cover-page {
-        background: url(portadas/opcion\ 6\ intermedia.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-}
-@media screen and (max-width: 550px) {
-    #cover-page {
-        background: url(portadas/opcion\ 6\ chica.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    #texto-portada {
-        font-size: 140%;
-        padding-top: 50px !important;
-        padding-bottom: 50px !important;
-    }
-}
-@media screen and (max-width: 405px) {
-    #texto-portada {
-        font-size: 120%;
-        padding-top: -100px !important;
-    }
-}
-@media screen and (max-width: 357px) {
-    #texto-portada {
-        font-size: 100%;
-
-    }
-}
-
-#texto-portada {
+#text-cover-page {
     position: relative;
     font-family: 'Noto Sans', sans-serif;
     color: white;
@@ -95,4 +90,94 @@ h1,h2,h3,h4,h5{
 .text-with-bg {
     background-color: #e97d8fd3;
 }
+@media screen and (max-width: 1350px) {
+    #cover-page {
+        background: url(portadas/opcion\ 6\ intermedia.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+@media screen and (max-width: 650px) {
+    #text-cover-page {
+        font-size: 190%;
+    }
+}
+@media screen and (max-width: 550px) {
+    #cover-page {
+        background: url(portadas/opcion\ 6\ chica.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #text-cover-page {
+        font-size: 140%;
+        padding-top: 50px !important;
+        padding-bottom: 50px !important;
+    }
+}
+@media screen and (max-width: 405px) {
+    #text-cover-page {
+        font-size: 120%;
+        padding-top: -100px !important;
+    }
+}
+@media screen and (max-width: 357px) {
+    #text-cover-page {
+        font-size: 100%;
 
+    }
+}
+
+/* SECTION */
+
+#galery {
+    background: url(img/bg-1.png);
+    background-size: 100px 100px;
+    border-top: solid 2px rgb(0, 0, 0);
+    margin-bottom: -60px !important;
+    padding-bottom: 130px !important;
+}
+
+#text-section {
+    font-size: 200%;
+}
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 420px;
+    padding: 160px;
+    grid-gap: 100px;
+}
+.gallery__item {
+    position: relative;
+}
+.gallery__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 950px) {
+    .gallery-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .gallery__item:nth-child(9) {
+        grid-column-start: span 2;
+    }
+}
+@media screen and (max-width: 740px) {
+    .gallery-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+#button-web {
+    background-color: #e97d8f;
+    width: 18rem;
+}
+
+#ribbon {
+    background-color: #e6c3c9;
+}
+
+#product {
+    
+}
