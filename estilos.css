@@ -170,7 +170,7 @@ h1,h2,h3,h4,h5{
     }
 }
 #button-web {
-    background-color: #e97d8f;
+    background-color: #fcdc8d;
     width: 18rem;
 }
 
@@ -179,5 +179,7 @@ h1,h2,h3,h4,h5{
 }
 
 #product {
-    
+    padding-top: 100px;
+    padding-bottom: 100px;
+
 }
