@@ -242,8 +242,6 @@ h1,h2,h3,h4,h5{
     }
 }
 
-
-
 #ribbon {
     background-color: #e6c3c9;
 }
@@ -271,4 +269,10 @@ h1,h2,h3,h4,h5{
         margin-left: -70px;
         margin-right: -70px;
     }
+}
+
+#contact {
+    background: url(img/bg-1.png) #fcdd8da8;
+    background-size: 70px 70px;
+
 }
