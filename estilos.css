@@ -99,7 +99,7 @@ h1,h2,h3,h4,h5{
 }
 @media screen and (max-width: 650px) {
     #text-cover-page {
-        font-size: 190%;
+        font-size: 180%;
     }
 }
 @media screen and (max-width: 550px) {
@@ -109,20 +109,20 @@ h1,h2,h3,h4,h5{
         background-size: cover;
     }
     #text-cover-page {
-        font-size: 140%;
+        font-size: 130%;
         padding-top: 50px !important;
         padding-bottom: 50px !important;
     }
 }
 @media screen and (max-width: 405px) {
     #text-cover-page {
-        font-size: 120%;
+        font-size: 110%;
         padding-top: -100px !important;
     }
 }
 @media screen and (max-width: 357px) {
     #text-cover-page {
-        font-size: 100%;
+        font-size: 90%;
 
     }
 }
