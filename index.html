@@ -26,13 +26,13 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul id="navbar-items" class="navbar-nav pe-5">
                     <li class="nav-item ms-5">
-                      <a class="nav-link active" aria-current="page" href="#cover-page">Home</a>
+                      <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item ms-5">
                       <a class="nav-link" href="#product">Precio</a>
                     </li>
                     <li class="nav-item ms-5 pe-3">
-                      <a class="nav-link" href="#product">Preguntas frecuentes</a>
+                      <a class="nav-link" href="#frequent-questions">Preguntas frecuentes</a>
                     </li>
                     <li class="nav-item ms-5 pe-3">
                         <a class="nav-link" href="#contact">Contacto</a>
@@ -222,37 +222,10 @@
     
     <!--CONTACT-->
 
-    <div id="contact" class="py-5 justify-content-center">
-        <div class="row py-5">
-            <div class="container col-6 my-5 py-5 card shadow me-5 ps-5 pe-5" style="width: 30rem;">
-                <h3 class="text-center py-4 fw-bold">Envianos tus datos<br/>y te contactaremos</h3>
-                <form action="juntosenlawebinfo@gmail.com" method="get" enctype="text/plain" class="row g-5">
-                    <div class="col-6">
-                        <label for="inputEmail4" class="form-label">Nombre</label>
-                        <input type="email" class="form-control" id="inputEmail4" required>
-                    </div>
-                    <div class="col-6">
-                        <label for="inputPassword4" class="form-label">Celular</label>
-                        <input type="password" class="form-control" id="inputPassword4" required>
-                    </div>
-                    <div class="col-12">
-                        <select class="form-select" aria-label="Default select example">
-                            <option selected>¿Cómo nos conociste?</option>
-                            <option value="1">Instagram</option>
-                            <option value="2">Me recomendaron</option>
-                            <option value="3">Google</option>
-                        </select>
-                    </div>
-                    <div class="col-12">
-                        <div class="g-recaptcha" data-sitekey="6LfNYGcaAAAAAHNYMfB1tYkhOGA4zrLMub6hqNJa"></div>
-                    </div>
-                    <div class="col-12">
-                        <button type="submit" class="btn btn-danger" style="width: 10rem;">Enviar</button>
-                    </div>
-                </form>
-            </div>
-            <div class="container col-6 my-5 py-5 card shadow ms-5 ps-5 pe-5" style="width: 30rem;">
-                <h3 class="text-center py-4 fw-bold">Ingresa a nuestro instagram<br/>y contactanos</h3>
+    <div id="contact" class="py-5">
+        <div class="py-5">
+            <div id="target-contact" class="mx-auto my-5 py-5 card shadow ps-5 pe-5" >
+                <h3 id="text-contact" class="text-center py-4 fw-bold">Ingresá a nuestro instagram<br/>y contactanos</h3>
                 <div class="mx-auto">
                     <a href="" target="_blank" style="color: #ff8b9e; display: flex;">
                         <h4 class="fw-bold my-auto me-2">juntosenlaweb</h4>
@@ -264,11 +237,21 @@
         </div>
     </div>
 
+    <!--FOOTER-->
+
+    <div id="footer" class="py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center text-dark">
+                    <p>Copyright 2021 - juntosenlaweb.com.ar - Todos los derechos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </div>    
 
 
 
     <script src='https://www.google.com/recaptcha/api.js?hl=es'></script>
-    <script src="funcionalidad.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 </body>
 </html>
