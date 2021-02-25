@@ -278,6 +278,7 @@ h1,h2,h3,h4,h5{
 #target-contact {
     width: 30rem;
 }
+
 @media screen and (max-width: 600px) {
     #target-contact {
         width: 20rem;
@@ -291,6 +292,9 @@ h1,h2,h3,h4,h5{
 @media screen and (max-width: 410px) {
     #target-contact {
         width: 18rem;
+    }
+    #contact-whatsapp {
+        font-size: 120%;
     }
 }
 
