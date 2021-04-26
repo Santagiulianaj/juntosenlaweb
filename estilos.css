@@ -129,8 +129,6 @@ h1,h2,h3,h4,h5{
 /* SECTION */
 
 #galery {
-    background: url(img/bg-1.png);
-    background-size: 100px 100px;
     border-top: solid 2px rgb(0, 0, 0);
     margin-bottom: -60px !important;
     padding-bottom: 130px !important;
@@ -298,5 +296,5 @@ h1,h2,h3,h4,h5{
 }
 
 #footer {
-    background-color: #f96c85;
+    background-color: #e6c3c9;
 }
